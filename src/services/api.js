@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'https://fiap-bff-9aojr.onrender.com/ask';
+const API_URL = import.meta.env.API_URL;
 
 // Timeout para requisições (30 segundos)
 const TIMEOUT = 30000;
